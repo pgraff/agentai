@@ -103,6 +103,7 @@ for fault in faults.faults:
 crew = Crew(
     agents=[cause_identification_agent],
     tasks=crew_tasks,
+    manager_llm=ollama_model,
     process=Process.hierarchical
 )
 
