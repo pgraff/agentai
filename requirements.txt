@@ -1,0 +1,10 @@
+setuptools
+pydentic
+crewai
+crewai[tools]
+
+pydantic
+langchain
+langchain-community
+
+duckduckgo-search

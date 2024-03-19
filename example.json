@@ -1,0 +1,52 @@
+{
+  "faults": [
+    {
+      "title": "Leaks",
+      "description": "Steam escapes through cracks or holes in the engine, reducing its efficiency and power output."
+    },
+    {
+      "title": "Overheating",
+      "description": "The engine reaches temperatures that are too high, causing damage to the metal components and reducing its lifespan."
+    },
+    {
+      "title": "Lack of compression",
+      "description": "Insufficient compression of steam in the cylinders, resulting in reduced power output and efficiency."
+    },
+    {
+      "title": "Excessive wear and tear",
+      "description": "Friction and wear on moving parts, such as piston rings and valves, can reduce the engine's efficiency and lifespan."
+    },
+    {
+      "title": "Cylinder distortion",
+      "description": "The cylinders become misshapen or warped, causing uneven compression and reduction in power output."
+    },
+    {
+      "title": "Incorrect fuel-to-water ratio",
+      "description": "Using too much or too little fuel can result in an imbalance of steam production, leading to reduced efficiency and power output."
+    },
+    {
+      "title": "Worn or damaged valves",
+      "description": "Valves become worn or damaged, causing leaks or uneven distribution of steam, resulting in reduced power output and efficiency."
+    },
+    {
+      "title": "Incorrect timing",
+      "description": "The timing of the valves and pistons is not correct, leading to uneven compression and reduction in power output."
+    },
+    {
+      "title": "Excessive smoke",
+      "description": "Smoke or soot accumulates in the engine, indicating excessive wear and tear on the cylinders and piston rings."
+    },
+    {
+      "title": "Low steam pressure",
+      "description": "The steam pressure is too low, resulting in reduced power output and efficiency."
+    },
+    {
+      "title": "Misaligned connecting rods",
+      "description": "The connecting rods are not properly aligned, causing uneven compression and reduction in power output."
+    },
+    {
+      "title": "Incorrect boiler pressure",
+      "description": "The boiler pressure is too high or too low, resulting in reduced efficiency and power output."
+    }
+  ]
+}

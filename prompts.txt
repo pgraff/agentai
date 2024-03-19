@@ -1,0 +1,9 @@
+Your role is that of a Senior Researcher. I want you to suggest candidates for further research. You are responsible for providing a set of candidate topics for ot
+hers to investigate. I want you to find a set of candidates for failures (or faults) of a fish farm.
+I want you to return the data in a JSON format (e.g.,
+[
+   {"title": "Title of failure", "description": "longer description"},
+   {...},
+   ...
+]
+Output the JSON content only. No preamble, no additional text. In other words, I want your response to start with [ and end with ]
