@@ -1,0 +1,473 @@
+{
+  "system": {
+    "title": "steam engine",
+    "description": "a machine using heat and the steam of from water to generate energy",
+    "goals": "identify a fault cause graph for steam engines"
+  },
+  "faults_and_causes": [
+    {
+      "title": "Boiler Tube Leaks",
+      "description": "",
+      "causes": [
+        {
+          "title": "Corrosion",
+          "description": "The most common cause of boiler tube leaks is corrosion, which occurs when the water inside the boiler reacts with the metal tubes due to impurities or high temperatures."
+        },
+        {
+          "title": "Eroding-Corrosion",
+          "description": "This type of damage is caused by the erosive effect of water droplets, steam, or other particles moving at high velocities against the boiler tube walls. It can occur due to poor feedwater quality, high steam temperatures, or turbulence in the water flow."
+        },
+        {
+          "title": "Thermal Fatigue",
+          "description": "Repeated heating and cooling cycles can cause the metal tubes to expand and contract, leading to cracks and leaks. This is particularly common in older boilers that have undergone many thermal cycles."
+        },
+        {
+          "title": "Mechanical Damage",
+          "description": "Physical damage to the boiler tubes can result from external forces such as impact or bending, or internal forces like water hammer or vibration. This can lead to leaks or even tube ruptures."
+        },
+        {
+          "title": "Chemical Reactions",
+          "description": "The presence of impurities in the feedwater or steam can cause chemical reactions that damage the boiler tubes. For example, chlorides and sulfides can form acids that attack the metal, while silica can form deposits that erode the tubes over time."
+        },
+        {
+          "title": "Operating Conditions",
+          "description": "Poor operating conditions such as high pressures, temperatures, or steam flow rates can contribute to boiler tube leaks. For example, excessive pressure can cause the tubes to bulge or rupture, while high temperatures can accelerate corrosion and thermal fatigue."
+        },
+        {
+          "title": "Material Compatibility",
+          "description": "Using incompatible materials for the boiler tubes or other components can lead to chemical reactions that cause damage. For example, using steel tubes with copper or brass fittings can result in galvanic corrosion."
+        },
+        {
+          "title": "Maintenance Practices",
+          "description": "Inadequate maintenance practices such as insufficient water treatment, improper cleaning, or lack of regular inspections can contribute to boiler tube leaks. For example, neglecting to remove deposits or scale buildup can lead to erosion and corrosion."
+        },
+        {
+          "title": "Design Issues",
+          "description": "Poor design or manufacturing defects in the boiler tubes or other components can also cause leaks. For example, using thin-walled tubes or poor quality materials can reduce their resistance to corrosion and thermal fatigue."
+        },
+        {
+          "title": "Human Error",
+          "description": "Human error such as improper operation, lack of training, or failure to follow safety procedures can contribute to boiler tube leaks. For example, operating the boiler at too high a pressure or temperature, or neglecting to perform routine inspections and maintenance, can lead to damage and failures."
+        }
+      ]
+    },
+    {
+      "title": "Steam Leaks",
+      "description": "",
+      "causes": [
+        {
+          "title": "1. Worn out or damaged gaskets and seals",
+          "description": "Gaskets and seals are used to prevent leakage between different parts of the engine. Over time, they may wear out or get damaged due to corrosion, thermal stress, or mechanical shock, leading to steam leaks."
+        },
+        {
+          "title": "2. Cracks in cylinder liners or boiler tubes",
+          "description": "Steam engines operate under high pressure and temperature conditions. The cylinder liners and boiler tubes may develop cracks due to fatigue, corrosion, or thermal stress, resulting in steam leaks."
+        },
+        {
+          "title": "3. Valve leakage",
+          "description": "Valves are used to control the flow of steam into and out of the engine. Leakage around valve stems, guides, or seats can cause steam leaks."
+        },
+        {
+          "title": "4. Piston ring failure",
+          "description": "The piston rings seal the gap between the piston and cylinder wall. If they fail, steam can leak out, causing a loss in efficiency and potentially leading to safety issues."
+        },
+        {
+          "title": "5. Corrosion",
+          "description": "Steam engines are exposed to various corrosive environments, such as water, steam, and combustion products. Corrosion of engine components, particularly those made of iron or steel, can lead to steam leaks."
+        },
+        {
+          "title": "6. Poor workmanship or manufacturing defects",
+          "description": "Inadequate welding, improper assembly, or other manufacturing defects can result in steam leaks."
+        },
+        {
+          "title": "7. External damage",
+          "description": "Steam engines may be subjected to external damage due to accidents, vandalism, or other causes. This damage can lead to steam leaks and potentially compromise the safety of the engine."
+        },
+        {
+          "title": "8. Inadequate maintenance",
+          "description": "Regular maintenance is essential for preventing steam leaks. Neglecting routine inspections, repairs, and replacements can result in component failure and subsequent steam leaks."
+        },
+        {
+          "title": "9. Operating conditions",
+          "description": "Steam engines may be subjected to various operating conditions that can contribute to steam leaks. For example, high steam pressure or temperature, contaminated feedwater, or excessive vibration can all lead to leakage."
+        },
+        {
+          "title": "10. Material compatibility issues",
+          "description": "Different materials used in the engine may not be compatible with each other, leading to corrosion and subsequent steam leaks. For example, using iron components in a steam engine designed for copper-based alloys can result in rapid corrosion and leakage."
+        }
+      ]
+    },
+    {
+      "title": "Valve Faults",
+      "description": "",
+      "causes": [
+        {
+          "title": "Worn-out valves",
+          "description": "Valves that have worn out due to repeated use and exposure to high temperatures and pressures can cause valve faults."
+        },
+        {
+          "title": "Incorrect valve setting",
+          "description": "Valves that are not set correctly may not open or close properly, leading to inefficiencies, loss of power, or damage to the engine."
+        },
+        {
+          "title": "Corrosion and scale build-up",
+          "description": "Corrosion and scale build-up on valves can prevent them from sealing properly, leading to leaks and other faults."
+        },
+        {
+          "title": "Poor maintenance",
+          "description": "Neglecting regular maintenance tasks such as cleaning, lubricating, and adjusting the valves can lead to wear, corrosion, and other issues that can cause valve faults."
+        },
+        {
+          "title": "Foreign matter in the steam",
+          "description": "Impurities or foreign matter in the steam can cause valves to stick or fail to seal properly."
+        },
+        {
+          "title": "Damage from external sources",
+          "description": "Valve faults can also be caused by damage from external sources such as impact, vibration, or other mechanical stresses."
+        },
+        {
+          "title": "Design and manufacturing defects",
+          "description": "Defects in the valves themselves can cause valve faults."
+        },
+        {
+          "title": "Operational errors",
+          "description": "Human error can also cause valve faults, such as accidentally leaving a valve open or failing to close it properly after maintenance or repair work."
+        },
+        {
+          "title": "Water hammer",
+          "description": "Rapid changes in water pressure can cause valves to slam shut or open violently, leading to damage and faults."
+        },
+        {
+          "title": "Thermal shock",
+          "description": "Sudden temperature changes can cause valves to expand or contract unevenly, leading to leaks or other faults."
+        }
+      ]
+    },
+    {
+      "title": "Pump Failure",
+      "description": "",
+      "causes": [
+        {
+          "title": "Worn out or damaged pump parts",
+          "description": "The pump components such as impellers, casing, and shafts may wear out due to prolonged use or get damaged due to foreign objects entering the system."
+        },
+        {
+          "title": "Air entrainment",
+          "description": "When air gets trapped in the water being pumped, it forms bubbles that reduce the density of the liquid, making it harder for the pump to move it effectively. This condition is known as 'air entrainment' and can lead to cavitation, which damages the impeller and eventually leads to pump failure."
+        },
+        {
+          "title": "Corrosion",
+          "description": "The internal surfaces of the pump may corrode due to exposure to acidic or alkaline water or due to the presence of minerals in the water. This can cause leaks, reducing the efficiency of the pump or leading to complete failure."
+        },
+        {
+          "title": "Inadequate suction pressure",
+          "description": "If the suction pressure is not sufficient, it may lead to cavitation, which damages the impeller and eventually leads to pump failure. This can be caused by a lack of water in the suction pipe or by a restriction in the suction line."
+        },
+        {
+          "title": "Excessive wear and tear",
+          "description": "The continuous operation of the steam engine can cause excessive wear and tear on the pump components, leading to failure. This can be due to poor maintenance practices, operating the engine beyond its design limits, or using low-quality materials for the pump parts."
+        },
+        {
+          "title": "Foreign objects in the water",
+          "description": "Debris, sand, or other foreign objects in the water being pumped can damage the pump components and lead to failure. This can be caused by poor quality water entering the system or by contamination of the water due to leaks or other sources."
+        },
+        {
+          "title": "Incorrect installation",
+          "description": "If the pump is not installed correctly, it may not function properly, leading to pump failure. This can include incorrect alignment, improper sealing, or insufficient support for the pump."
+        },
+        {
+          "title": "Insufficient lubrication",
+          "description": "The lack of adequate lubrication in the pump can lead to excessive wear and tear, eventually causing pump failure. This can be caused by a lack of oil in the system or by leaks in the lubrication system."
+        },
+        {
+          "title": "Inadequate maintenance",
+          "description": "Regular maintenance is essential for preventing pump failure. Neglecting routine inspections, repairs, and replacements of worn-out parts can lead to pump failure due to wear and tear or other causes."
+        }
+      ]
+    },
+    {
+      "title": "Steam Pressure Issues",
+      "description": "",
+      "causes": [
+        {
+          "title": "Low Water Level in the Boiler",
+          "description": "Insufficient water level in the boiler can lead to low steam pressure."
+        },
+        {
+          "title": "Faulty Feedwater Pump",
+          "description": "A faulty feedwater pump can result in insufficient water supply, leading to low steam pressure."
+        },
+        {
+          "title": "Leaks in the Steam System",
+          "description": "Any leaks in the steam system can cause a loss of steam pressure."
+        },
+        {
+          "title": "Blockages in the Steam System",
+          "description": "Blockages in the steam system, such as clogged valves or pipes, can restrict the flow of steam, leading to reduced pressure."
+        },
+        {
+          "title": "Faulty Valves",
+          "description": "Valves that do not function properly can cause steam pressure issues."
+        },
+        {
+          "title": "Steam Trap Failure",
+          "description": "A faulty steam trap can allow water to enter the steam line, reducing the steam pressure."
+        },
+        {
+          "title": "Boiler Tube Leaks",
+          "description": "Leaks in the boiler tubes can result in a loss of heat and pressure."
+        },
+        {
+          "title": "Fuel Quality Issues",
+          "description": "Poor quality fuel or incorrect fuel-water ratio can lead to incomplete combustion, resulting in insufficient steam generation and low steam pressure."
+        },
+        {
+          "title": "Inadequate Insulation",
+          "description": "Insufficient insulation of the boiler or steam lines can result in heat loss, reducing the efficiency of the steam engine and leading to lower steam pressure."
+        },
+        {
+          "title": "Corrosion and Scale Build-up",
+          "description": "Corrosion and scale build-up inside the boiler tubes can restrict the flow of water and steam, leading to reduced steam pressure. Regular maintenance and descaling are essential to prevent this issue."
+        },
+        {
+          "title": "Incorrect Steam Pressure Setting",
+          "description": "If the desired steam pressure setting is incorrect, the engine may not operate efficiently or may even fail to start. Ensuring the correct steam pressure setting is crucial for optimal engine performance."
+        }
+      ]
+    },
+    {
+      "title": "Fuel System Failures",
+      "description": "",
+      "causes": [
+        {
+          "title": "Coal Quality",
+          "description": "Poor quality coal with high ash content or impurities can clog fuel pipes, obstruct grates, and reduce steam generation efficiency."
+        },
+        {
+          "title": "Water Injection",
+          "description": "Precise control over water injection rates is necessary to maintain optimal combustion conditions. Too much or too little water can lead to incomplete combustion, uneven fuel distribution, and fuel system failures."
+        },
+        {
+          "title": "Fuel Pipe Corrosion",
+          "description": "Corroded fuel pipes can develop leaks or cracks, leading to fuel loss and system failure."
+        },
+        {
+          "title": "Fuel System Design Issues",
+          "description": "Inadequate design considerations, such as insufficient pipe diameter, improper material selection, or poor joint welding, can result in fuel system failures."
+        },
+        {
+          "title": "Coal Dust Explosions",
+          "description": "Coal dust accumulation in the fuel system can lead to explosive conditions, causing damage to the fuel system and potentially resulting in catastrophic engine failure."
+        },
+        {
+          "title": "Fuel System Maintenance Neglect",
+          "description": "Neglecting routine inspections, cleaning, and repairs can result in fuel system issues."
+        },
+        {
+          "title": "Improper Fuel Preparation",
+          "description": "Inadequate preparation of the fuel, such as failure to grind coal to the correct size or failure to remove impurities, can lead to fuel system failures."
+        },
+        {
+          "title": "Steam Pressure Fluctuations",
+          "description": "Sudden changes in steam pressure within the engine can cause fuel system components to expand and contract unevenly, leading to damage and potential failure."
+        },
+        {
+          "title": "Fuel System Leaks",
+          "description": "Leaks in the fuel system can result from corrosion, wear, or damage. These leaks can lead to fuel loss, reduced efficiency, and potential engine failure."
+        },
+        {
+          "title": "Inadequate Fuel Supply",
+          "description": "Insufficient fuel supply due to blockages, clogs, or other issues can cause fuel system failures and impact the overall performance of the steam engine."
+        }
+      ]
+    },
+    {
+      "title": "Water Quality Issues",
+      "description": "",
+      "causes": [
+        {
+          "title": "Impurities in Feedwater",
+          "description": "Presence of impurities such as minerals, gases, and organic matter in feedwater is the most common cause of Water Quality Issues in a steam engine."
+        },
+        {
+          "title": "Corrosion",
+          "description": "Corrosion of boiler tubes or other components can result in the release of metal ions into the steam system, causing deposits and fouling."
+        },
+        {
+          "title": "Scale Formation",
+          "description": "Deposit of mineral salts on heating surfaces of the boiler reduces heat transfer efficiency, increases fuel consumption, and can lead to leaks and failures."
+        },
+        {
+          "title": "Fouling",
+          "description": "Deposition of non-metallic materials such as organic matter, sand, silt, and rust on heating surfaces reduces heat transfer efficiency, increases fuel consumption, and can lead to corrosion and leaks."
+        },
+        {
+          "title": "Gas Carryover",
+          "description": "Excessive amounts of dissolved gases such as oxygen, nitrogen, or carbon dioxide in steam bubbles can cause deposits and fouling."
+        },
+        {
+          "title": "Poor Quality Coal",
+          "description": "Coal with high ash content introduces impurities into feedwater, while coal with high sulfur content produces acidic condensate that can corrode the system."
+        },
+        {
+          "title": "Inadequate Water Treatment",
+          "description": "Proper water treatment is essential for maintaining good water quality in a steam engine. This includes adding chemicals to prevent corrosion, scale formation, and fouling, as well as regular cleaning and maintenance of the boiler and steam system."
+        },
+        {
+          "title": "Operating Conditions",
+          "description": "High temperatures and long cycles can lead to increased corrosion and scale formation."
+        },
+        {
+          "title": "Leaks",
+          "description": "Leaks in the steam system can introduce contaminants into the feedwater, leading to Water Quality Issues. Leaks can be caused by corrosion, wear, or damage to system components."
+        },
+        {
+          "title": "Poor Maintenance",
+          "description": "Neglecting regular cleaning and inspection, failing to replace worn parts, and not addressing issues promptly can lead to Water Quality Issues."
+        }
+      ]
+    },
+    {
+      "title": "Mechanical Wear and Tear",
+      "description": "",
+      "causes": [
+        {
+          "title": "Abrasive particles",
+          "description": ""
+        },
+        {
+          "title": "Corrosion",
+          "description": ""
+        },
+        {
+          "title": "Heat",
+          "description": ""
+        },
+        {
+          "title": "Vibration",
+          "description": ""
+        },
+        {
+          "title": "Poor lubrication",
+          "description": ""
+        },
+        {
+          "title": "Improper maintenance",
+          "description": ""
+        },
+        {
+          "title": "Misalignment",
+          "description": ""
+        },
+        {
+          "title": "Excessive loads",
+          "description": ""
+        },
+        {
+          "title": "Poor quality materials",
+          "description": ""
+        },
+        {
+          "title": "Improper installation",
+          "description": ""
+        },
+        {
+          "title": "Environmental factors (temperature)",
+          "description": ""
+        },
+        {
+          "title": "Environmental factors (humidity)",
+          "description": ""
+        },
+        {
+          "title": "Environmental factors (atmospheric conditions)",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "Safety Valve Failure",
+      "description": "",
+      "causes": [
+        {
+          "title": "Worn out or damaged safety valves",
+          "description": "Safety valves that are worn out or damaged due to corrosion, erosion, or impact from foreign objects can prevent them from functioning properly and cause safety valve failure."
+        },
+        {
+          "title": "Incorrect installation",
+          "description": "If safety valves are not installed correctly, they may not function as intended and cause safety valve failure. This includes incorrect pressure settings or installation in the wrong position."
+        },
+        {
+          "title": "Clogged or blocked safety valve passages",
+          "description": "Debris, rust, or other materials can accumulate in the safety valve passages and prevent them from functioning properly, leading to safety valve failure if the valves are unable to release excess pressure."
+        },
+        {
+          "title": "Faulty springs or pistons",
+          "description": "The springs or pistons that operate the safety valves may become weakened or damaged over time, causing them to fail to function correctly and leading to safety valve failure. For example, a weakened spring may not provide enough force to open the valve when needed."
+        },
+        {
+          "title": "Excessive pressure",
+          "description": "If the steam pressure in the engine exceeds the design limit of the safety valves, they may fail to open or may not be able to release enough steam to prevent damage to the engine, leading to safety valve failure and potentially catastrophic consequences."
+        },
+        {
+          "title": "Corrosion or erosion",
+          "description": "The internal components of the safety valves, such as the seats or discs, may become corroded or eroded over time due to exposure to steam and other corrosive materials. This can cause leaks or prevent the valves from seating properly, leading to safety valve failure."
+        },
+        {
+          "title": "Improper maintenance",
+          "description": "Lack of regular maintenance, such as cleaning, lubrication, or replacement of worn parts, can lead to safety valve failure. For example, a lack of lubrication may cause the pistons or springs to seize up and fail to operate the valves."
+        },
+        {
+          "title": "Human error",
+          "description": "Operator error, such as forgetting to set the safety valves at the correct pressure or failing to check them regularly, can lead to safety valve failure. For example, if an operator sets the safety valves too low, they may not open when needed to release excess pressure."
+        }
+      ]
+    },
+    {
+      "title": "Firebox Issues",
+      "description": "",
+      "causes": [
+        {
+          "title": "Insufficient Air Supply",
+          "description": "The firebox requires a sufficient supply of air for proper combustion. If the air supply is insufficient, the fuel may not burn completely, leading to incomplete combustion and poor steam generation."
+        },
+        {
+          "title": "Excessive Coal Consumption",
+          "description": "Burning too much coal at once can lead to excessive heat buildup in the firebox, which can cause the brickwork to crack or expand, leading to Firebox Issues."
+        },
+        {
+          "title": "Poor Quality Coal",
+          "description": "Using low-quality coal that produces excessive ash or has a high moisture content can lead to clogged grates and poor combustion, resulting in Firebox Issues."
+        },
+        {
+          "title": "Inadequate Water Supply",
+          "description": "The water level in the boiler must be maintained at an appropriate level to prevent the fire from burning too hot and causing damage to the firebox. If the water level is insufficient, it can lead to Firebox Issues."
+        },
+        {
+          "title": "Poor Maintenance",
+          "description": "Neglecting regular maintenance of the firebox, such as cleaning out ash and soot buildup or repairing cracks in the brickwork, can lead to Firebox Issues over time."
+        },
+        {
+          "title": "Faulty Firebox Door",
+          "description": "A faulty firebox door that does not seal properly can allow excess air to enter the firebox, leading to inefficient combustion and potential Firebox Issues."
+        },
+        {
+          "title": "Improperly Sized Firebox",
+          "description": "If the size of the firebox is not appropriate for the engine's power output or fuel type, it can lead to inefficient combustion and potential Firebox Issues."
+        },
+        {
+          "title": "Poor Design",
+          "description": "A poorly designed firebox that does not allow for proper airflow or heat distribution can lead to inefficient combustion and potential Firebox Issues."
+        },
+        {
+          "title": "Corrosion",
+          "description": "Corrosion of the firebox components, such as the grates or brickwork, can lead to weaknesses and potential failure, resulting in Firebox Issues."
+        },
+        {
+          "title": "Overheating",
+          "description": "Excessive heat buildup in the firebox due to poor fuel quality, insufficient water supply, or other factors can cause the brickwork to expand and crack, leading to Firebox Issues."
+        }
+      ]
+    }
+  ]
+}

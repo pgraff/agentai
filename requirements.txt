@@ -2,7 +2,7 @@ setuptools
 pydentic
 crewai
 crewai[tools]
-
+pandas
 pydantic
 langchain
 langchain-community

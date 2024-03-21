@@ -5,7 +5,7 @@ from crewai_tools import BaseTool
 # from langchain.llms import Ollama
 from langchain_community.llms import Ollama
 
-ollama_model = Ollama(model="llama2")
+ollama_model = Ollama(model="llama2:13b")
 
 
 
@@ -22,11 +22,14 @@ class Faults(BaseModel):
 class Cause(BaseModel):
     title: str = Field(title="A short name for the cause")
     description: str = Field(title="A dseep description of the cause")
-    faults: Set[str] = Field(titl="A set of possible faults that could result from this cause")
 
 class Causes(BaseModel):
-    causes: List[Cause]
+    causes: List[Cause] = Field(title="The list of causes")
 
+class FaultWithCauses(BaseModel):
+    title: str
+    description: str
+    causes: List[Cause]
 
 fault_identification_agent = Agent(
     role="Expert on faults in steam engines",
@@ -67,10 +70,10 @@ def investigate_fault(fault: Fault) -> List[Cause]:
 
 # Task for fault identification
 fault_identification_task = Task(
-    description='Identify all possible faults of a steam engine',
+    description='Identify all possible faults of a steam engine.',
     agent=fault_identification_agent,
     output_pydantic=Faults,
-    expected_output="""I want a complete list of faults"""
+    expected_output="""I want a complete list of faults in a simple list (no hierarchy)"""
 )
 
 
@@ -86,27 +89,32 @@ faults = crew.kickoff()
 
 print(faults)
 
-crew_tasks = []
-#
+list_of_fault_causes = []
+
 for fault in faults.faults:
     print(f"Creating agent for: {fault.title}")
     investigation_task = Task(
-        description=f'Investigate potential causes for {fault.title}',
+        description=f'We have identified the fault {fault.title} for a steam engine. Investigate potential causes for {fault.title}',
         agent=cause_identification_agent,
         # func=lambda f=fault: investigate_fault(f),
-        expected_output="An exhaustive list of possible causes",
+        expected_output="An exhaustive list of causes",
         output_pydantic=Causes
     )
     # Add the investigation agent and task to the crew
-    crew.tasks.append(investigation_task)
+    crew = Crew(
+        agents=[cause_identification_agent],
+        tasks=[investigation_task],
+        process=Process.sequential
+    )
+    causes_list = crew.kickoff()
+    list_of_fault_causes.append(
+        FaultWithCauses.construct(
+            title=fault.title,
+            description=fault.description,
+            causes=causes_list.causes
+        )
+    )
 
-crew = Crew(
-    agents=[cause_identification_agent],
-    tasks=crew_tasks,
-    manager_llm=ollama_model,
-    process=Process.hierarchical
-)
 
 # Execute the crew to investigate causes
-causes_list = crew.kickoff()
-print(causes_list)
+print(list_of_fault_causes)

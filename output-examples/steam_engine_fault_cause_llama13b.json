@@ -1,0 +1,425 @@
+{
+  "system": {
+    "title": "steam engine",
+    "description": "a machine using heat and the steam of from water to generate energy",
+    "goals": "identify a fault cause graph for steam engines"
+  },
+  "faults_and_causes": [
+    {
+      "title": "Leaks",
+      "description": "Steam or water leaking from the engine can indicate faulty seals or gaskets, worn or damaged piston rings, or cracks in the cylinder or boiler.",
+      "causes": [
+        {
+          "title": "Faulty seals or gaskets",
+          "description": "Cracks in the cylinder or boiler"
+        },
+        {
+          "title": "Worn or damaged piston rings",
+          "description": "Incorrect installation or alignment"
+        },
+        {
+          "title": "Poor maintenance",
+          "description": "Overheating"
+        },
+        {
+          "title": "Incorrect operating pressure",
+          "description": "Foreign objects in the cylinder"
+        },
+        {
+          "title": "Worn-out piston rods",
+          "description": "Incorrect lubrication"
+        }
+      ]
+    },
+    {
+      "title": "Overheating",
+      "description": "Excessive heat can cause damage to the engine's components, including the cylinder, piston, and valves. This can be caused by a variety of factors, such as low water levels, malfunctioning safety valves, or inadequate cooling.",
+      "causes": [
+        {
+          "title": "Low water levels",
+          "description": ""
+        },
+        {
+          "title": "Malfunctioning safety valves",
+          "description": ""
+        },
+        {
+          "title": "Inadequate cooling",
+          "description": ""
+        },
+        {
+          "title": "Poor maintenance",
+          "description": ""
+        },
+        {
+          "title": "Incorrect operating conditions",
+          "description": ""
+        },
+        {
+          "title": "Faulty design or construction",
+          "description": ""
+        },
+        {
+          "title": "Blocked air passages",
+          "description": ""
+        },
+        {
+          "title": "Incorrect fuel-to-air ratio",
+          "description": ""
+        },
+        {
+          "title": "Worn piston rings",
+          "description": ""
+        },
+        {
+          "title": "Leaks in the cooling system",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "Lack of steam",
+      "description": "Insufficient steam pressure can lead to reduced engine performance, misfires, or stalling. Causes can include low water levels, faulty boiler components, or clogged steam passages.",
+      "causes": [
+        {
+          "title": "Low water levels",
+          "description": "Faulty boiler components, clogged steam passages, incorrect boiler setting, poor fuel quality, inadequate air flow"
+        },
+        {
+          "title": "Clogged condenser",
+          "description": "Incorrect engine setting, worn or damaged steam cylinders, incorrect lubrication, clogged pipes or tubes"
+        },
+        {
+          "title": "Faulty controls or governors",
+          "description": "Poor maintenance, clogged feedwater system"
+        }
+      ]
+    },
+    {
+      "title": "Piston and cylinder wear",
+      "description": "As the piston and cylinder move together during operation, they can wear down over time, leading to reduced engine performance and increased fuel consumption.",
+      "causes": [
+        {
+          "title": "Insufficient Lubrication",
+          "description": "Lack of proper lubrication can cause piston and cylinder wear in steam engines."
+        },
+        {
+          "title": "Overheating",
+          "description": "Excessive heat can cause the piston and cylinder to wear down faster than normal."
+        },
+        {
+          "title": "Incorrect Alignment",
+          "description": "Improper alignment of the piston and cylinder can lead to increased wear."
+        },
+        {
+          "title": "Worn Piston Rings",
+          "description": "Worn piston rings can cause the piston and cylinder to wear down faster than normal."
+        },
+        {
+          "title": "Cylinder Scrubbing",
+          "description": "Dirt and debris accumulating on the cylinder walls can cause wear."
+        },
+        {
+          "title": "Incorrect Compression Ratio",
+          "description": "An incorrect compression ratio can lead to increased wear on the piston and cylinder."
+        },
+        {
+          "title": "Poor Quality Materials",
+          "description": "Using poor quality materials for the piston and cylinder can lead to premature wear."
+        },
+        {
+          "title": "Incorrect Assembly",
+          "description": "Improper assembly of the piston and cylinder can lead to increased wear."
+        },
+        {
+          "title": "Foreign Object Damage",
+          "description": "Damage from foreign objects can cause wear on the piston and cylinder."
+        },
+        {
+          "title": "Over Time Wear",
+          "description": "Normal wear and tear over time can cause the piston and cylinder to wear down."
+        }
+      ]
+    },
+    {
+      "title": "Valve issues",
+      "description": "Faulty valves can cause a range of problems, including poor engine performance, misfires, or overheating. Common issues include stuck valves, damaged valve seats, or worn valve guides.",
+      "causes": [
+        {
+          "title": "Worn or damaged valve guides",
+          "description": "Sticky or damaged valve guides can cause the valves to not seat properly, leading to poor engine performance and potential misfires."
+        },
+        {
+          "title": "Stuck valves",
+          "description": "Valves that do not open or close properly can cause poor engine performance and misfires."
+        },
+        {
+          "title": "Damaged valve seats",
+          "description": "Damaged valve seats can cause the valves to not seat properly, leading to poor engine performance and potential misfires."
+        },
+        {
+          "title": "Incorrect valve adjustment",
+          "description": "Improper valve adjustment can lead to poor engine performance and misfires."
+        },
+        {
+          "title": "Low compression",
+          "description": "Low compression can cause poor engine performance, misfires, and overheating."
+        },
+        {
+          "title": "Overheating",
+          "description": "Overheating can cause damage to the engine and lead to poor engine performance, misfires, and other issues."
+        },
+        {
+          "title": "Incorrect fuel mixture",
+          "description": "An incorrect fuel mixture can cause poor engine performance, misfires, and overheating."
+        },
+        {
+          "title": "Clogged air filter",
+          "description": "A clogged air filter can restrict airflow to the engine, leading to poor engine performance, misfires, and other issues."
+        },
+        {
+          "title": "Worn or damaged piston rings",
+          "description": "Worn or damaged piston rings can cause the engine to consume more oil and lead to overheating and poor engine performance."
+        },
+        {
+          "title": "Incorrect timing",
+          "description": "Improper timing can cause poor engine performance, misfires, and other issues."
+        }
+      ]
+    },
+    {
+      "title": "Crankshaft and bearings",
+      "description": "The crankshaft and its supporting bearings are subject to heavy loads and high temperatures, which can lead to wear and failure over time. Signs of crankshaft or bearing issues can include rough engine operation, misfires, or grinding noises.",
+      "causes": [
+        {
+          "title": "Wear and tear",
+          "description": "Over time, the constant movement of the crankshaft and bearings can lead to wear and tear, which can cause the components to become loose or misaligned. This can result in rough engine operation, misfires, or grinding noises."
+        },
+        {
+          "title": "Insufficient lubrication",
+          "description": "If the crankshaft and bearings are not properly lubricated, the components can overheat and wear out prematurely. Insufficient lubrication can also lead to corrosion and damage to the engine's components."
+        },
+        {
+          "title": "Overloading",
+          "description": "Operating the steam engine beyond its recommended load capacity can put excessive stress on the crankshaft and bearings, leading to premature failure."
+        },
+        {
+          "title": "Poor maintenance",
+          "description": "Failure to properly maintain the steam engine can lead to a range of issues, including crankshaft and bearing failures. This can include neglecting to change the oil, clean the engine, or replace worn components."
+        },
+        {
+          "title": "Incorrect installation",
+          "description": "If the crankshaft and bearings are not installed correctly, it can lead to misalignment, wear, and premature failure."
+        },
+        {
+          "title": "High temperatures",
+          "description": "Steam engines can operate at high temperatures, which can cause the crankshaft and bearings to expand and become loose. This can result in rough engine operation, misfires, or grinding noises."
+        },
+        {
+          "title": "Incorrect cooling",
+          "description": "If the steam engine is not properly cooled, it can lead to overheating of the crankshaft and bearings, which can cause premature failure."
+        },
+        {
+          "title": "Foreign object damage",
+          "description": "If foreign objects, such as dirt or debris, enter the engine, they can cause damage to the crankshaft and bearings, leading to premature failure."
+        },
+        {
+          "title": "Corrosion",
+          "description": "Steam engines can be prone to corrosion, particularly if they are not properly maintained. Corrosion can weaken the crankshaft and bearings, leading to premature failure."
+        },
+        {
+          "title": "Manufacturing defects",
+          "description": "In some cases, crankshaft and bearing failures may be caused by manufacturing defects or design flaws. This is particularly true if multiple engines are experiencing similar issues."
+        }
+      ]
+    },
+    {
+      "title": "Connecting rod failure",
+      "description": "The connecting rods connect the piston to the crankshaft and are subject to high stresses and fatigue. Failure can occur due to worn or damaged bearings, improper alignment, or excessive force.",
+      "causes": [
+        {
+          "title": "worn or damaged bearings",
+          "description": ""
+        },
+        {
+          "title": "improper alignment",
+          "description": ""
+        },
+        {
+          "title": "excessive force",
+          "description": ""
+        },
+        {
+          "title": "inadequate lubrication",
+          "description": ""
+        },
+        {
+          "title": "overloading",
+          "description": ""
+        },
+        {
+          "title": "poor maintenance",
+          "description": ""
+        },
+        {
+          "title": "incorrect installation",
+          "description": ""
+        },
+        {
+          "title": "material defects",
+          "description": ""
+        },
+        {
+          "title": "high temperatures",
+          "description": ""
+        },
+        {
+          "title": "incorrect adjustment",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "Gearbox issues",
+      "description": "Steam engines often use gearboxes to step up the speed of the engine before driving a load. Faults in the gearbox can cause reduced performance, noise, or vibration. Common issues include worn gears, damaged bearings, or incorrect lubrication.",
+      "causes": [
+        {
+          "title": "Worn Gears",
+          "description": "Gears that are worn down due to excessive use or lack of maintenance can cause issues in the gearbox."
+        },
+        {
+          "title": "Damaged Bearings",
+          "description": "Bearings that are damaged or worn out can cause the gears to vibrate and make noise, leading to reduced performance and premature wear."
+        },
+        {
+          "title": "Incorrect Lubrication",
+          "description": "Insufficient or incorrect lubrication can cause the gears to wear down faster and lead to premature failure."
+        },
+        {
+          "title": "Misaligned Gears",
+          "description": "Gears that are not properly aligned can cause friction and heat buildup, leading to reduced performance and noise."
+        },
+        {
+          "title": "Insufficient Cooling",
+          "description": "Inadequate cooling can cause the gears to overheat and fail prematurely."
+        },
+        {
+          "title": "Overloading",
+          "description": "Excessive load on the gearbox can cause the gears to wear down faster and lead to premature failure."
+        },
+        {
+          "title": "Poor Maintenance",
+          "description": " Failure to properly maintain the gearbox can lead to premature wear and failure."
+        },
+        {
+          "title": "Incorrect Installation",
+          "description": "Improper installation of the gearbox can cause issues with the alignment and performance of the gears."
+        },
+        {
+          "title": "Foreign Object Damage",
+          "description": "Damage to the gearbox caused by foreign objects can lead to premature wear and failure."
+        }
+      ]
+    },
+    {
+      "title": "Boiler issues",
+      "description": "The boiler is responsible for producing steam for the engine. Faults can include low water levels, scale buildup, or malfunctioning safety valves.",
+      "causes": [
+        {
+          "title": "Low Water Levels",
+          "description": "Insufficient water in the boiler can cause the steam pressure to rise, leading to a range of problems, including overheating, drying out of the steam and water mixture, and eventually, failure of the boiler."
+        },
+        {
+          "title": "Scale Buildup",
+          "description": "Mineral deposits from hard water can accumulate inside the boiler, reducing its efficiency and potentially causing it to fail."
+        },
+        {
+          "title": "Malfunctioning Safety Valves",
+          "description": "The safety valve is designed to release excess steam pressure when it reaches a certain level. If the valve fails to function properly, it can cause the boiler to overpressure, leading to damage or failure."
+        },
+        {
+          "title": "Poor Water Treatment",
+          "description": "Using poor quality water or failing to treat the water properly can lead to corrosion and scaling inside the boiler, reducing its efficiency and potentially causing it to fail."
+        },
+        {
+          "title": "Incorrect Boiler Setting",
+          "description": "Operating the boiler at the wrong pressure or temperature can cause damage to the boiler and its components, leading to Boiler issues."
+        },
+        {
+          "title": "Faulty Feedwater System",
+          "description": "The feedwater system is responsible for supplying water to the boiler. If the system is faulty, it can cause low water levels, scale buildup, or other Boiler issues."
+        },
+        {
+          "title": "Inadequate Maintenance",
+          "description": "Failing to properly maintain the boiler and its components can lead to a range of problems, including Boiler issues."
+        },
+        {
+          "title": "Poor Design or Installation",
+          "description": "A poorly designed or installed boiler can be prone to Boiler issues due to inadequate clearances, improper materials, or other design flaws."
+        },
+        {
+          "title": "Incorrect Fuel Type",
+          "description": "Using the wrong type of fuel for the boiler can cause problems, such as corrosion or overheating, leading to Boiler issues."
+        },
+        {
+          "title": "Wear and Tear",
+          "description": "Over time, the boiler's components can wear out, leading to Boiler issues. Regular maintenance and replacement of worn parts can help prevent this."
+        },
+        {
+          "title": "Incorrect Operating Procedures",
+          "description": "Following incorrect operating procedures can cause Boiler issues, such as overheating or overpressure. Proper training and adherence to established procedures can help prevent this."
+        },
+        {
+          "title": "Environmental Factors",
+          "description": "Extreme temperatures, humidity, or other environmental factors can affect the boiler's performance and lead to Boiler issues."
+        }
+      ]
+    },
+    {
+      "title": "Electrical issues",
+      "description": "Steam engines often use electrical systems to control various functions, such as ignition, fuel injection, and lighting. Faults in these systems can cause a range of problems, including reduced performance, misfires, or complete engine failure.",
+      "causes": [
+        {
+          "title": "Loose or damaged connections",
+          "description": "Faulty connections can cause electrical issues in steam engines."
+        },
+        {
+          "title": "Faulty wiring or harnesses",
+          "description": "Defective wiring or harnesses can lead to electrical problems in steam engines."
+        },
+        {
+          "title": "Incorrect voltage or frequency",
+          "description": "Operating the engine at the wrong voltage or frequency can cause electrical issues."
+        },
+        {
+          "title": "Moisture or condensation",
+          "description": "Water or humidity in the engine can cause short circuits and other electrical problems."
+        },
+        {
+          "title": "Overloading or overheating",
+          "description": "Running the engine at too high a load or temperature can cause electrical issues."
+        },
+        {
+          "title": "Poor maintenance",
+          "description": " Failure to properly maintain the engine can lead to electrical problems."
+        },
+        {
+          "title": "Incorrect component installation",
+          "description": "Improper installation of components can cause electrical issues in steam engines."
+        },
+        {
+          "title": "EMI/RFI interference",
+          "description": "Electromagnetic interference (EMI) or radio-frequency interference (RFI) can affect the proper functioning of steam engine electrical systems."
+        },
+        {
+          "title": "Inadequate grounding",
+          "description": "Poor grounding can cause electrical issues in steam engines."
+        },
+        {
+          "title": "Obsolescence",
+          "description": "Outdated or obsolete components can cause electrical issues in steam engines."
+        }
+      ]
+    }
+  ]
+}
